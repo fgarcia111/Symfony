@@ -1,0 +1,7 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+users:
+    path: /users
+    controller: App\Controller\UserController::getProveedores
